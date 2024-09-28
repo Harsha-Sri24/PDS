@@ -1,0 +1,20 @@
+The summary statistics provide an overview of the dataset’s characteristics:
+
+Math Score:
+	Mean: 66.089
+	Range: 0 to 100
+Reading score:
+	Mean: 69.169
+	Range: 17 to 100
+Writing score:
+	Mean: 68.054
+	Range: 10 to 100
+
+There are no missing or duplicate values in the data set.
+
+The correlation matrix helps identify relationships between the variables:
+
+Writing score & reading score: positive correlation (0.95)
+writing score & Math Score: positive correlation(0.8)
+Math score & reading score: positive correlation (0.82)
+
