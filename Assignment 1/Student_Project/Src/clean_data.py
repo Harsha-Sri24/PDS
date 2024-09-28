@@ -11,10 +11,10 @@ from google.colab import files
 import pandas as pd
 from scipy import stats
 
-# Step 1: Upload the file
+# Upload the file
 uploaded = files.upload()
 
-# Step 2: Load the data into a DataFrame
+#  Load the data into a DataFrame
 df = pd.read_csv('StudentsPerformance.csv')
 
 # Display the first few rows
@@ -24,7 +24,7 @@ print("Missing Values in Dataset:")
 print(df.isnull().sum())
 
 
-# 1.2 Checking for duplicates
+# Checking for duplicates
 print("Number of Duplicates in the dataset:", df.duplicated().sum())
 
 #Finding Outliers
